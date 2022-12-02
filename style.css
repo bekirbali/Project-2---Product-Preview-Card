@@ -1,89 +1,104 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(22, 45%, 44%); }
-
-body{
-    background-color:hsl(30, 38%, 92%);
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-.container{
-    width: 600px;
-    display: flex;
-    justify-content: right;
-    margin: auto;
-    margin-top: 7%;
-    box-shadow: 0px 21px 45px 5px rgba(0, 0, 0, 0.9);
-    border-radius: 23px;
-    background-image: url(./images/image-product-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-    background-position: left top bottom;
-    padding-right: 25px;
-    float: center;
+.attribution a {
+  color: hsl(22, 45%, 44%);
 }
 
-.card{
-    display: grid;
-    padding-right: 50px;
-
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  margin-top: 7%;
+  box-shadow: 0px 21px 45px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 23px;
+  background-image: url(./images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: left top bottom;
+  padding-right: 25px;
+  float: center;
 }
 
-.card h2{
-    padding-top: 22px;
-    
-    font-family: 'Roboto', sans-serif;
-    
+.card {
+  display: grid;
+  padding-right: 50px;
 }
 
-.card h1{
-    display: block;
-    margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500px 700px;
-    line-height: auto;
-    margin: 0;
-}
-.card p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 1.6em;
-}
-.card h1:nth-child(6){
-    flex: 2;
-    display: grid;
-    padding-top: 2px;
-    padding-left: 15px;
-    color: hsl(158, 36%, 37%);
-    font-size: 36px;
-    float: left;
-    width: 80%;
-}
-strike{
-    flex: 3;
-    font-size: 16px;
-    float: right;
+.card h2 {
+  padding-top: 22px;
+
+  font-family: "Roboto", sans-serif;
 }
 
-.button{
-    background-color: hsl(158, 36%, 37%);
-    width: 100%;
-    height: 50px;
-    margin: auto;
-    padding: 5px 15px;
-    margin: 25px auto 15px ;
-    align-content: center;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+.card h1 {
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500px 700px;
+  line-height: auto;
+  margin: 0;
+}
+.card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.card h1:nth-child(6) {
+  flex: 2;
+  display: grid;
+  padding-top: 2px;
+  padding-left: 15px;
+  color: hsl(158, 36%, 37%);
+  font-size: 36px;
+  float: left;
+  width: 80%;
+}
+strike {
+  flex: 3;
+  font-size: 16px;
+  float: right;
 }
 
-.button:active{
-    background-color: hsl(158, 63%, 20%);
+.button {
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  padding: 5px 15px;
+  margin: 25px auto 15px;
+  align-content: center;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
-.shopcart{
-    margin: auto;
+.button:active {
+  background-color: hsl(158, 63%, 20%);
 }
 
-footer{
-    padding-top: 100px;
+.shopcart {
+  margin: auto;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+.price {
+  justify-content: space-evenly;
+}
+
+.price h1 {
+  color: hsl(158, 36%, 37%);
+}
+
+.price strike {
+  color: black;
 }
